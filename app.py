@@ -1,9 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import tensorflow as tf
-from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-import numpy as np
 import pickle
 import re
 import nltk
